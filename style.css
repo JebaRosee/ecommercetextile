@@ -1,0 +1,79 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: sans-serif;
+    margin: 0;
+}
+.container{
+    background-color: white;
+    margin: 24vh auto 0 auto;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(3, 216, 249);
+    box-shadow: 1px 1px 5px 5px rgb(239, 237, 255);
+}
+.container h1{
+    text-align: center;
+    color: rgb(3, 216, 249);
+    /* background-color: white; */
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+    text-shadow: 1px 2px 4px    black; 
+}
+.container .group-input{
+    display: flex;
+    flex-direction: column;
+}
+.container .group-input label{
+    color: rgb(3, 69, 124);
+    margin-bottom: 8px;
+    font-size: 20px;    
+}
+.container .group-input input{
+    margin-bottom: 8px;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid rgb(3, 216, 249);
+}
+.container .group-input input:focus{
+    outline-color: rgb(3, 216, 249);
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(3, 69, 124);
+
+}
+.bottom p{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.container button{
+    width: 100%;
+    padding: 10px;
+    background-color:  rgb(3, 216, 249);
+    border-radius: 5px;
+    border: 1px solid  rgb(3, 216, 249);
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color: #0a4975; 
+    border: 1px solid  #0a4975;
+}
+.error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+group-input.success{
+    background-color:  green;
+}
+group-input.error{
+    background-color:  red;
+}
